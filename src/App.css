@@ -1,0 +1,334 @@
+
+
+.App-header {
+  background-color: #ffffff;
+ 
+  flex-direction: column;
+  justify-content: left;
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 0px;
+}
+
+
+.App-logo {
+  padding-top: 10px;
+  padding-left: 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.select-a-category {
+  margin: 20px 0px 1.67em 0px;
+  text-align: center;
+  font-weight: 500;
+}
+.Categories-list {
+  display: flex;
+  grid-gap: 10px;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+  
+}
+.Category {
+  width: 250px;
+  align-content: center;
+  justify-content: center;
+  color: #000000;
+}
+.Category:hover {
+  color: #F28700;
+}
+.category-label {
+  width: 220px;
+  font-weight: 900;
+  text-align: center;
+  position: absolute;
+  background-color: white;
+  padding: 5px 5px 5px 5px;
+  margin: 155px 10px 10px 10px;
+  border-radius: 5px;
+}
+
+
+.would-you-pet-it {
+  text-align: center;
+  margin: 10px 0px 30px 0px;
+  font-size: 15px;
+}
+
+.logo-category {
+  position: flex;
+  text-transform:capitalize;
+  font-weight: 700;
+  font-size: 13px;
+  padding-left: 6rem;
+  margin: 1rem 0rem 0rem 0rem;
+}
+
+.single-cat-img {
+  border-radius: 5px 5px 0px 0px;
+  height: 330px;
+  width: 430px;
+  
+}
+
+.frame-div {
+  border: 1px solid rgb(230, 230, 230);
+  
+  border-width: 1px;
+  border-spacing: 0px;
+  width: 429px;
+  border-radius: 5px 5px 5px 5px;
+  
+}
+
+.cats-counter {
+  color: rgb(128, 128, 128);
+  font-weight: 900;
+  font-size: 0.65em;
+  text-align: center;
+  padding: 0px 0px 0.4rem 0px;
+  margin: 0px 0px 5px 0px;
+}
+.card-buttons-container {
+  display: flex;
+  justify-content: space-around;
+}
+.card-buttons-not {
+  cursor: pointer;
+  border-radius:50%;
+  padding: 0.6rem;
+  background-color: rgb(255, 235, 235);
+  justify-content: center;
+  border:#ff6d6d solid 1px;
+
+  margin: auto;
+  display: flex;
+
+  
+}
+ 
+.card-buttons-not:hover {
+  background-color: rgb(177, 155, 155);
+}
+.card-buttons-skip {
+  cursor: pointer;
+  background-color: rgb(245, 245, 245);
+  justify-content: center;
+  border-radius:50%;
+  padding: 0.6rem;
+  border:#6B7280 solid 1px;
+  margin: auto;
+  display: flex;
+}
+.card-button-labels{
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.card-buttons-skip:hover {
+  background-color: rgb(233, 233, 233);
+}
+.card-buttons-pet {
+  cursor: pointer;
+  border-radius:100%;
+  background-color: rgb(235, 255, 235);
+  padding: 0.6rem;
+  border: #10B981 solid 1px;
+  margin: auto;
+  display: flex;
+}
+.card-buttons-pet:hover {
+  background-color: rgb(105, 200, 105);
+}
+.dont-pet-it {
+  margin: 0em 0em 1em 0em;
+  padding: auto;
+  text-align: center;
+  color:#EF4444;
+  font-size: 11px;
+  
+}
+.card-button-label {
+  text-align: center;
+}
+.skip-it {
+  text-align: center;
+  margin: 0em 0em 1em 0em;
+  padding: auto;
+  color: #6B7280;
+  font-size: 11px;
+  
+}
+.pet-it {
+  margin: 0em 0em 1em 0em;
+  padding: auto;
+  text-align: center;
+  color: #10B981;
+  font-size: 11px;
+
+}
+.cats-seen {
+  padding: 0;
+  margin: 1rem 0 0 0;
+  width: 100%;
+  padding-left: 6rem;
+  font-weight: 600;
+  display: flex;
+}
+.big-stats-cointainer {
+  
+  justify-content: space-around;
+}
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  margin: 0 6rem 0 6rem;
+  height:100%;
+}
+.card-not-stats {
+  position:absolute;
+  padding: 0.6rem;
+  border-radius:50%;
+  background-color: rgb(255, 235, 235);
+  justify-content: center;
+  border:hsl(0, 100%, 72%) solid 1px;
+  display: flex;
+}
+.card-skip-stats {
+  position: absolute;
+  padding: 0.6rem;
+  background-color: rgb(245, 245, 245);
+  justify-content: center;
+  border-radius:50%;
+  border:#6B7280 solid 1px;
+  display: flex;
+}
+.card-pet-stats {
+  
+  position: absolute;
+  border-radius:100%;
+  
+  padding: 0.6rem;
+  background-color: rgb(235, 255, 235);
+  border: #10B981 solid 1px;
+  display: flex;
+}
+.skip-stats-container {
+ display:flex;
+ border: 1px solid rgb(230, 230, 230);
+ border-radius: 0 0 10px 10px;
+ padding: 0.6rem;
+ margin: 5px; 
+ width: 275px;
+ height: 60px;
+ justify-content: block;
+}
+.not-stats-container {
+  display: flex;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 0 0 10px 10px;
+  padding: 0.6rem;
+  margin: 5px; 
+  width: 275px;
+  height: 60px;
+  justify-content: block;
+}
+.pet-stats-container {
+  display: flex;
+  padding: 0.6rem;
+  width: 275px;
+  margin: 5px; 
+  height: 60px;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 0 0 10px 10px;
+  justify-content: block;
+}
+.stats {
+  display: block;
+  text-align: right;
+  
+  width: 100%;
+  height: 100%;
+}
+.cats-you-didnt-pet {
+  margin: auto;
+  padding: 0;
+}
+.cats-you-skipped {
+  margin: auto;
+  padding: 0;
+}
+.cats-you-petted {
+  margin: auto;
+  padding: 0;
+}
+.stats-petted {
+ margin: 0.4rem 0 0.2rem 0;
+ color: green;
+ font-weight: 900;
+ font-size: 20px;
+}
+.stats-skipped {
+  margin: 0.4rem 0 0.2rem 0;
+  color: grey;
+ font-weight: 900;
+ font-size: 20px;
+ }
+.stats-not {
+  margin: 0.4rem 0 0.2rem 0;
+  color: red;
+ font-weight: 900;
+ font-size: 20px;
+ }
+ .final-nav-container {
+   margin-top: 100px;
+ }
+ .restart-same {
+  margin: 0 0 10px 0;
+  padding: 20px;
+  border: 2px solid #F28700;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #F28700;
+  cursor: pointer;
+ }
+ .restart-same:hover {
+   background-color: #ffffff;
+   color: #F28700;
+ }
+ .restart-new {
+   cursor: pointer;
+  margin: 0 0 20px 0;
+  padding: 20px;
+  text-align: center;
+  border: 2px ridge rgb(0, 0, 0);
+  border-radius: 5px;
+ }
+ .restart-new:hover {
+  background-color: #000000;
+  color: #F28700;
+}
+@media only screen and (max-width: 760px) {
+  .single-cat-img {
+    border-radius: 5px 5px 0px 0px;
+    height: 250px;
+    width: 310px;
+  }
+  .frame-div {
+    width: 310px;
+  }
+  .final-nav-container {
+    margin-top: 0px;
+  }
+}
+
+
+
+
